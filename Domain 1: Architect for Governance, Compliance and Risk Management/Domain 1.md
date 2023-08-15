@@ -16,9 +16,18 @@ The applicable of the standard should based on the business nature and it's valu
 
 Most typically, companies otains ISO would be proundly said they are compliant by good standard. However, as the cybersecurity professional, we need to know why people typically said ISO could governance security. In ISO framework, the main idea is monitoring the process and you can control the risk. The most important idea on ISO family is generally put the different checkpoints to endorse the action. Action should be approved by certain parties to ensure all neccessary party should be informed in the process.
 
-
+The standards and guidelines should be act as the criteria of acceptance on process or bahavior. In CISSP, we had well defined the differences between policy, standard, procedure and guideline. In ISSAP, the same idea should be implied on the section.
 
 - Identify third-party and contractual obligations (e.g., supply chain, outsourcing, partners)
+
+Third-party management should be introduced to ensure security had been formulated in controlling risk and vulnerabilities.
+
 - Determine applicable sensitive/personal data standards, guidelines and privacy regulations
 - Design for auditability (e.g., determine regulatory, legislative, forensic requirements, segregation, high assurance systems)
 - Coordinate with external entities (e.g., law enforcement, public relations, independent assessor)
+
+## 1.2 Manage Risk
+- Identify and classify risks
+- Assess risk
+- Recommend risk treatment (e.g., mitigate, transfer, accept, avoid)
+- Risk monitoring and reporting
