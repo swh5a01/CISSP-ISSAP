@@ -20,7 +20,13 @@ The standards and guidelines should be act as the criteria of acceptance on proc
 
 - Identify third-party and contractual obligations (e.g., supply chain, outsourcing, partners)
 
-Third-party management should be introduced to ensure security had been formulated in controlling risk and vulnerabilities.
+Third-party management should be introduced to ensure security had been formulated in controlling risk and vulnerabilities. The main management strategy should be introduced the assessment and control mindset on managing third-party vendors.
+
+There are serval dimension on third-party management. But most properly, why business need third-party helping because the cost, schedule and scope. 
+
+The strategy on third-party involvement in business could be the supply-chain supports, outsourcing and partnering.
+
+The supply chain supporting is the business align the production with other business or vendor that could help to prebuild or support for the raw materials. The supply chain supporting in software development should be the opensource code or library that use in software products. 
 
 - Determine applicable sensitive/personal data standards, guidelines and privacy regulations
 - Design for auditability (e.g., determine regulatory, legislative, forensic requirements, segregation, high assurance systems)
