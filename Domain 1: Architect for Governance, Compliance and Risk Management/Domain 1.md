@@ -28,7 +28,18 @@ The strategy on third-party involvement in business could be the supply-chain su
 
 The supply chain supporting is the business align the production with other business or vendor that could help to prebuild or support for the raw materials. The supply chain supporting in software development should be the opensource code or library that use in software products. 
 
+To ensure the supply chain in software development or deployment had achieve certain level of the mature
+ity, sofrware composition analysis (SCA) should be introduced to the SDLC.
+
 - Determine applicable sensitive/personal data standards, guidelines and privacy regulations
+
+Data privacy should be governanced by different level of the applicable laws/standards. Currently, the most restrict law on governance data privacy are GDPR and CCPA.
+
+Such laws are standing out for two major dimension, the consents and right to be forgotten. 
+
+In previous decade, business, even e-business had not considered to get the consents from users before they operated the business objectives. 
+
+
 - Design for auditability (e.g., determine regulatory, legislative, forensic requirements, segregation, high assurance systems)
 - Coordinate with external entities (e.g., law enforcement, public relations, independent assessor)
 
