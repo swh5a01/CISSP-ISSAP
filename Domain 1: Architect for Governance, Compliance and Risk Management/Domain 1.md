@@ -1,50 +1,72 @@
-# Domain 1: Architect for Governance, Compliance and Risk Management
+# Domain 1: Architect for Governance, Compliance, and Risk Management
+-------------------------------------------------------------------
 
-Domain 1 will provide the governance and compliance horison on how the architect works and what should be follows.
+### 1.1 Determine legal, regulatory, organizational, and industry requirements
 
-## 1.1 Determine legal, regulatory, organizational and industry requirements
+#### a. Applicable Information Security Standards and Guidelines
 
-In this chapter, the most important thing should be how we should considered to implement the suitable controls on governance the risks, The main idea on this should based on the exam outline with the following sections:
+-   Identify and adhere to global and local security standards like ISO 27001, GDPR, HIPAA, and industry-specific regulations.
+-   Consider cybersecurity frameworks such as NIST and CSC for building robust security architecture.
 
-- Determine applicable information security standards and guidelines
+#### b. Third-party and Contractual Obligations
 
-In most of the industries, there is no solid standards or guidelines in requesting business to pass certain standard to operate. Most of the private companies had been see security brandmark as one of the advance functions and additional score of the business.
+-   Evaluate security protocols of third-party entities to ensure alignment with organizational security posture.
+-   Enforce stringent security clauses in contracts and agreements with partners, vendors, and suppliers.
+-   Ensure continuous monitoring of third-party adherence to security policies and regular audits.
 
-However, in some industuries, compliance should be passed before you start to operation your business like: if you need to receive credit card payment, you should go to the PCI-DSS.
+#### c. Data Standards and Privacy Regulations
 
-The applicable of the standard should based on the business nature and it's value.
+-   Understand and adhere to data protection standards like GDPR, CCPA for safeguarding personal and sensitive data.
+-   Implement necessary controls for data processing, storage, transfer, and destruction to comply with regulations.
+-   Ensure data encryption, pseudonymization, and other technical controls are in place to safeguard data.
 
-Most typically, companies otains ISO would be proundly said they are compliant by good standard. However, as the cybersecurity professional, we need to know why people typically said ISO could governance security. In ISO framework, the main idea is monitoring the process and you can control the risk. The most important idea on ISO family is generally put the different checkpoints to endorse the action. Action should be approved by certain parties to ensure all neccessary party should be informed in the process.
+#### d. Design for Auditability
 
-The standards and guidelines should be act as the criteria of acceptance on process or bahavior. In CISSP, we had well defined the differences between policy, standard, procedure and guideline. In ISSAP, the same idea should be implied on the section.
+-   Design systems with traceability and audit trails to facilitate forensic investigations and compliance checks.
+-   Ensure system components, activities, and access are logged and immutable to unauthorized changes.
+-   Maintain segregation of duties to avoid conflicts of interest and enforce least privilege access.
 
-- Identify third-party and contractual obligations (e.g., supply chain, outsourcing, partners)
+#### e. Coordination with External Entities
 
-Third-party management should be introduced to ensure security had been formulated in controlling risk and vulnerabilities. The main management strategy should be introduced the assessment and control mindset on managing third-party vendors.
+-   Establish communication protocols and liaisons with external entities like law enforcement, regulatory bodies, and assessors.
+-   Plan and communicate with PR teams to manage reputational risks and formulate communication strategies for incidents.
 
-There are serval dimension on third-party management. But most properly, why business need third-party helping because the cost, schedule and scope. 
+### 1.2 Manage Risk
 
-The strategy on third-party involvement in business could be the supply-chain supports, outsourcing and partnering.
+#### a. Identify and Classify Risks
 
-The supply chain supporting is the business align the production with other business or vendor that could help to prebuild or support for the raw materials. The supply chain supporting in software development should be the opensource code or library that use in software products. 
+-   Determine potential risks, their sources, and vulnerabilities in the system that may be exploited.
+-   Classify risks based on their potential impact and likelihood of occurrence.
 
-To ensure the supply chain in software development or deployment had achieve certain level of the mature
-ity, sofrware composition analysis (SCA) should be introduced to the SDLC.
+#### b. Assess Risk
 
-- Determine applicable sensitive/personal data standards, guidelines and privacy regulations
+-   Evaluate risks considering the organizational context, assets involved, threat landscape, and vulnerabilities.
+-   Utilize quantitative and qualitative methods for risk assessment like FAIR, risk matrices, and risk heat maps.
 
-Data privacy should be governanced by different level of the applicable laws/standards. Currently, the most restrict law on governance data privacy are GDPR and CCPA.
+#### c. Recommend Risk Treatment
 
-Such laws are standing out for two major dimension, the consents and right to be forgotten. 
+-   Choose appropriate risk treatment strategies, whether to mitigate, transfer, accept, or avoid the risks.
+-   Mitigate: Implement controls to reduce risk.
+-   Transfer: Use mechanisms like insurance to transfer risk.
+-   Accept: Acknowledge and document the acceptance of risks that cannot be mitigated or transferred.
+-   Avoid: Alter processes or systems to eliminate the risk.
 
-In previous decade, business, even e-business had not considered to get the consents from users before they operated the business objectives. 
+#### d. Risk Monitoring and Reporting
 
+-   Employ continuous monitoring mechanisms using SIEM systems, IDS/IPS, and other security tools to identify and respond to risks in real-time.
+-   Establish a structured risk reporting mechanism to communicate risks to relevant stakeholders, including executive management and operational teams.
+-   Periodically review and reassess the risk landscape to account for new threats, vulnerabilities, and changes in the business environment.
 
-- Design for auditability (e.g., determine regulatory, legislative, forensic requirements, segregation, high assurance systems)
-- Coordinate with external entities (e.g., law enforcement, public relations, independent assessor)
+* * * * *
 
-## 1.2 Manage Risk
-- Identify and classify risks
-- Assess risk
-- Recommend risk treatment (e.g., mitigate, transfer, accept, avoid)
-- Risk monitoring and reporting
+### General Notes on Security Architecture:
+
+-   **Holistic Approach:** Security architecture should provide a holistic approach to protect an organization from risks and should not only be technologically driven but should also incorporate processes and people.
+
+-   **Alignment with Business Objectives:** Security measures and controls should be aligned with business objectives and enable the organization to achieve its goals without undue constraints.
+
+-   **Defense in Depth:** Implement layered security controls across all areas of technology, processes, and people to ensure redundancy and robustness in security defense mechanisms.
+
+-   **Scalability and Flexibility:** Ensure that the security architecture is scalable to accommodate the growth of the organization and flexible enough to adapt to evolving security threats and business needs.
+
+Remember, a solid security architecture should interweave technology, processes, and people, thereby ensuring a robust framework that is capable of responding to ever-evolving cybersecurity threats while aligning with business goals.
